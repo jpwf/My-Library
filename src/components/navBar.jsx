@@ -4,7 +4,7 @@ import { List } from 'phosphor-react'
 
 function Navbar(){
   const [navbar, setNavBar] = useState(false);
-  // const activeStyle = "bg-black"
+  
   return(
     <>
       <nav className={'w-full items-center gap-[520px]   flex text-base border-b-[1px] h-[55px] border-b-gray-300 bg-[#B1830D] bg-opacity-20'}>

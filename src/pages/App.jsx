@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/navBar'
-
+import Footer from '../components/footer'
 function App(){
   return(
     <>
@@ -13,7 +13,7 @@ function App(){
         <div>bloco livro 2</div>
         <div>bloco livro 3</div>
       </div>
-      
+      <Footer/>
     </>
   )
 }

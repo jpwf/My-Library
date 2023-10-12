@@ -8,8 +8,8 @@ function Navbar(){
 
   return(
     <>
-      <nav className={'w-full flex    items-center border-b-[1px] h-[55px] border-b-gray-300 bg-[#B1830D] bg-opacity-20'}>
-        <div className='flex justify-start items-center ml-9'>
+      <nav className={'w-full flex items-center justify-center border-b-[1px] h-[55px] border-b-gray-300 bg-[#B1830D] bg-opacity-20'}>
+        <div className='flex justify-start items-center mr-15'>
           <div className='  relative justify-start items-center flex-col items-center'>
             <button onClick={() => setNavBar((navbar) => !navbar)} 
             className='items-center ' >
@@ -24,7 +24,7 @@ function Navbar(){
   )}
           </div>
         </div>
-        <div className='font-bold justify-center text-[42px] leading-[38px] w-full  ml-9 '>
+        <div className='font-bold justify-center text-[42px]  w-full  ml-9 '>
           <h1>My Library</h1>
         </div>
 

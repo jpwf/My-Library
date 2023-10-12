@@ -7,9 +7,9 @@ function App(){
       <Navbar/>
       <div> 
         <div>
-          <h2>Texto texto sub título</h2>
+          <h2 className='bg-black'>Texto texto sub título</h2>
         </div>
-        <div>bloco livro 1</div>  
+        <div className='text-blue-700'>bloco livro 1</div>  
         <div>bloco livro 2</div>
         <div>bloco livro 3</div>
       </div>
